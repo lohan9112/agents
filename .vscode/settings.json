@@ -1,0 +1,6 @@
+{
+  // Use the workspace venv so Pylance can resolve imports in .py files
+  "python.defaultInterpreterPath": "${workspaceFolder}\\\\venv\\\\Scripts\\\\python.exe",
+  // Prefer the project venv for terminals too
+  "python.terminal.activateEnvironment": true
+}

@@ -24,7 +24,7 @@ from IPython.display import display
 from langgraph.prebuilt import ToolNode
 from langchain_community.tools import DuckDuckGoSearchRun, WikipediaQueryRun, DuckDuckGoSearchResults
 from langchain_experimental.tools import PythonREPLTool
-from langchain.agents import Tool
+from langchain_core.tools import Tool
 from langgraph.checkpoint.memory import MemorySaver
 from langchain_core.messages import HumanMessage
 from langchain_core.prompts import ChatPromptTemplate

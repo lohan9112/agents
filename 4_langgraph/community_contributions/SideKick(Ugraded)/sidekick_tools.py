@@ -7,7 +7,7 @@ load_dotenv(override=True)
 from playwright.async_api import async_playwright
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
-from langchain.agents import Tool
+from langchain_core.tools import Tool
 from langchain_community.agent_toolkits import PlayWrightBrowserToolkit, FileManagementToolkit
 from langchain_community.utilities import GoogleSerperAPIWrapper
 from langchain_community.utilities.wikipedia import WikipediaAPIWrapper

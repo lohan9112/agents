@@ -2,7 +2,7 @@ import markdown
 import os
 import subprocess
 import tempfile
-from langchain.agents import Tool
+from langchain_core.tools import Tool
 
 def markdown_to_pdf(filename: str) -> str:
     """Convert a markdown file to PDF format"""
